@@ -105,7 +105,7 @@ namespace Assignment3
                 Console.WriteLine("Enter Marketing Executive Salary:");
                 Salary = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine("Enter kilomter travel by Marketing EXecutive:");
-                KiloMeterTravel = Convert.ToInt32(Console.ReadLine());
+                KiloMeterTravel = Convert.ToInt32(Console.ReadLine() );
                 TourAllowances = KiloMeterTravel * 5;
                 TelephoneAllowances = 1000;
 
